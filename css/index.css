@@ -1,11 +1,14 @@
+@media (max-width: 768px) {
+  body {
+    background-color: gainsboro;
+  }
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  body{
-    background-color: gainsboro;
-  }
+
   .heading{
     margin-bottom: 200px;
     
