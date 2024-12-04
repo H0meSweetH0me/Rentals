@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
   body {
-    background-color: gainsboro;
+    /* Avoid changes here to keep the desktop styling */
   }
 }
 *{
@@ -8,7 +8,9 @@
     padding: 0;
     box-sizing: border-box;
   }
-
+  body{
+    background-color: gainsboro;
+  }
   .heading{
     margin-bottom: 200px;
     
