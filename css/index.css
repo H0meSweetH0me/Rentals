@@ -12,8 +12,8 @@
     
   }
 .head{
-    width: 100%;
-    height: 120px;
+    width: 100vw;
+    height: 15vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,7 +28,7 @@
     display: inline-block;
     position: absolute;
     left: 30px;
-    font-size: 40px;
+    font-size: 2.5vw;
 }
 .search{
     display: inline-block;
@@ -41,8 +41,8 @@ display: flex;
 
 }
 .searchInput{
-    width: 350px;
-    font-size: 20px;
+    width: 24vw;
+    font-size: 1.25vw;
     border: 1px solid;
     border-radius: 14px;
     border-top-right-radius: 0px;
@@ -50,7 +50,7 @@ display: flex;
 }
 .submit{
     width: 15%;
-    font-size: 28px;
+    font-size: 1.8vw;
     border-radius: 14px;
     border: 1px solid;
     border-top-left-radius: 0px;
@@ -74,7 +74,7 @@ display: flex;
 }
 a{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1.8vw;
     color: black;
     
 }
@@ -94,25 +94,25 @@ a{
   }
   #nav-bar {
     width: 50%;
-    max-width: 400px;
-    height: 50px;
+    max-width: 31vw;
+    height: 3vh;
   }
 
 
   .sales{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 125px;
+    margin-left: 8.229vw;
     
   }
   .products{
     display: inline-block;
-    margin: 10px;
-    padding: 10px;
+    margin: 0.658vw;
+    padding: 0.658vw;
   }
   .information{
-    width: 300px;
-    height: 100px;
+    width: 19.58vw;
+    height: 13vh;
     padding: 0;
     margin: 0;
     background-color: white;
@@ -122,8 +122,8 @@ a{
 
   }
   .image{
-    width: 300px;
-    height: 200px;
+    width: 19.58vw;
+    height: 26vh;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin-bottom: 0;
@@ -131,27 +131,27 @@ a{
   .information > h1{
     text-align: center;
     margin-top: 0;
-    padding-top: 10px;
-    font-size: 25px;
+    padding-top: 0.658vw;
+    font-size: 1.646vw;
   }
 
   .information > .date,.address{
     display: inline-block;
-    font-size: 20px;
-    margin-top: 5px;
+    font-size: 1.317vw;
+    margin-top: 0.329vw;
   }
   .information > .date{
-    margin-left: 10px;
+    margin-left: 0.658vw;
   }
   .information > .address{
-    margin-left: 50px;
+    margin-left: 3.292vw;
     
   }
   .information > h2{
     text-align: center;
-    margin-top: 5px;
+    margin-top: 0.329vw;
     
-    font-size: 20px;
+    font-size: 1.317vw;
   }
 
 
@@ -170,7 +170,7 @@ a{
     bottom: 0;
     left: 0;
     background-color: blanchedalmond;
-    width: 100%;
+    width: 100vw;
     height: 85vh;
   }
   .footer > .io{
@@ -182,15 +182,15 @@ a{
   
   .footer-links > .xx{
     position: relative;
-    left: 10px;
-    top: 10px;
+    left: 0.658vw;
+    top: 0.658vw;
   }
   .footer-links > .xx > li{
     display: block;
-    margin: 0.5rem 0.5rem;
-    padding: 0.2rem;
+    margin: 0.527vw 0.527vw;
+    padding: 0.211vw;
     color: white;
-    width: 230px;
+    width: 15.142vw;
     border-radius: 25px;
   }
   .footer-links > .xx > li:hover{
@@ -201,9 +201,9 @@ a{
   .footer-contact{
     display: block;
     position: relative;
-    margin-left: 50px;
-    top: 50px;
-    height: 400px;
+    margin-left: 3.292vw;
+    top: 3.292vw;
+    height: 34.627vw;
   }
  .first > h3{
   display: inline-block;
@@ -212,69 +212,69 @@ a{
   display: inline-block;
  }
  .footer-contact > div{
-  margin: 10px;
+  margin: 0.658vw;
  }
  
   .footer-contact > p{
-    margin-left: 10px;
-    font-size: 25px;
+    margin-left: 0.658vw;
+    font-size: 1.646vw;
     font-weight: bold;
   }
   .footer-contact > hr{
-    height: 3px;
-    width: 230px; 
+    height: 0.3vh;
+    width: 15.142vw; 
     background-color: black; 
-    margin-left: 10px; 
+    margin-left: 0.658vw; 
     border: none;
   }
   .io-hr{
-    height: 4px;
+    height: 0.5vh;
     width: 100vh;
     background-color: #000;
     border: none;
     position: absolute;
-    bottom: 150px;
+    bottom: 9.875vw;
     left: 26%;
   }
 
   .socialMedia{
     display: block;
     position: relative;
-    top: 50px;
-    left: 50px;
-    height: 400px;
+    top: 3.292vw;
+    left: 3.292vw;
+    height: 34.627vw;
   }
 
   .socialMedia > p{
-    margin-left: 20px;
-    font-size: 25px;
+    margin-left: 1.317vw;
+    font-size: 1.646vw;
     font-weight: bold;
   }
   .socialMedia > hr{
-    height: 3px;
-    width: 230px; 
+    height: 0.3vh;
+    width: 15.142vw; 
     background-color: black; 
-    margin-left: 20px; 
+    margin-left: 1.317vw; 
     border: none;
   }
  .laylaylom{
     display: block;
     position: relative;
-    top: 50px;
-    left: 50px;
-    height: 400px;
-    width: 350px;
+    top: 3.292vw;
+    left: 3.292vw;
+    height: 34.627vw;
+    width: 23.041vw;
  }
  .laylaylom > p{
-    margin-left: 20px;
-    font-size: 25px;
+    margin-left: 1.317vw;
+    font-size: 1.646vw;
     font-weight: bold;
  }
  .laylaylom > hr{
-  height: 3px;
-  width: 230px; 
+  height: 0.3vh;
+  width: 15.142vw; 
   background-color: black; 
-  margin-left: 20px; 
+  margin-left: 1.317vw; 
   border: none;
  }
   
