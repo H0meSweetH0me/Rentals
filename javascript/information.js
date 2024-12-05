@@ -1,5 +1,5 @@
 export const information = [{
-    id: HB001,    
+    id: 1,    
     image1: "images/house.jpeg",
     image2: "images/house2.jpeg",
     image3: "images/house3.jpeg",

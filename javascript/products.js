@@ -5,7 +5,7 @@
 //TODO:make all scale changes to fit to mobile devices
 //TODO:chnage the grid column from 3 to 2 on mobile devices
 export const products = [{
-    id: HB001,
+    id: 1,
     image:'images/house.jpeg',
     name: 'House without windows',
     dateAded: '2024/10/24',
@@ -85,7 +85,7 @@ export const products = [{
         "uskudar"
     ]
 },{
-    id:HB001,
+    id:1,
     image:'images/house.jpeg',
     name: 'House without windows',
     dateAded: '2024/10/24',
@@ -165,7 +165,7 @@ export const products = [{
         "uskudar"
     ]
 },{
-    id:HB001,
+    id:1,
     image:'images/house.jpeg',
     name: 'House without windows',
     dateAded: '2024/10/24',
