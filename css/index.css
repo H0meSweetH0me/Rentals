@@ -130,31 +130,37 @@ a{
     border-top-right-radius: 20px;
     margin-bottom: 0;
   }
-  .information > h1{
-    text-align: center;
-    margin-top: 0;
-    padding-top: 0.658vw;
-    font-size: 1.646vw;
+  
+  .date,.address,.price,.isAvailable{
+    font-size: 1.317vw;
+    margin-top: 1vw;
   }
-
-  .information > .date,.address{
+  .date,.price{
+    margin-left: 0.5vw;
+  }
+  .address,.isAvailable{
+    margin-right: 0.5vw;
+  }
+  .information > .dateAddress > .date,.address{
     display: inline-block;
-    font-size: 1.317vw;
-    margin-top: 0.329vw;
   }
-  .information > .date{
-    margin-left: 0.658vw;
+  .information > .priceAvailable > .price,.isAvailable{
+    display: inline-block;
   }
-  .information > .address{
-    margin-left: 3.292vw;
-    
+  .dateAddress,.priceAvailable{
+    overflow: hidden;
   }
-  .information > h2{
-    text-align: center;
-    margin-top: 0.329vw;
-    
-    font-size: 1.317vw;
+  .date,.price{
+   float: left;
   }
+  .address,.isAvailable{
+    float: right;
+  }
+  .isAvailable{
+    color: forestgreen;
+  }
+  
+  
 
 
 
@@ -287,11 +293,21 @@ a{
     }
     .information{
       width: 35vw;
-      height: 9vh;
+      height: 10vh;
     }
     .image{
       width: 35vw;
-      height: 18vh;
+      height: 20vh;
+    }
+    .date,.address,.price,.isAvailable{
+      font-size: 2.8vw;
+      margin-top: 2.4vw;
+    }
+    .date,.price{
+      margin-left: 1vw;
+    }
+    .address,.isAvailable{
+      margin-right: 1vw;
     }
   }
   

@@ -7,10 +7,14 @@ products.forEach((product) => {
     <div class="products">
             <a href="second.html?id=${product.id}"> <img class="image" src="${product.image}" alt="image"></a>
              <section class="information">
-                 <h1>${product.name}</h1>
+             <div class="dateAddress">
                  <p class="date">${product.dateAded}</p>
                  <p class="address">${product.address}</p>
-                 <h2>${product.price}$</h2>
+            </div>
+            <div class="priceAvailable">
+                 <p class="price">${product.price} tl</p>
+                 <p class="isAvailable">${product.isAvailable}</p>
+            </div>
              </section>
              
          </div>
