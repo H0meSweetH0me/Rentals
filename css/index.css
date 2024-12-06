@@ -284,19 +284,43 @@ a{
   @media (max-width: 475px){
     .sales{
       grid-template-columns: repeat(2, 1fr);
-      margin-left: 15.229vw;
+      margin-left: 10.229vw;
+    }
+    .information{
+      width: 30vw;
+      height: 10vh;
+    }
+    .image{
+      width: 30vw;
+      height: 20vh;
     }
   }
   @media (max-width: 640px){
     .sales{
       grid-template-columns: repeat(2, 1fr);
-      margin-left: 15.229vw;
+      margin-left: 10.229vw;
+    }
+    .information{
+      width: 30vw;
+      height: 10vh;
+    }
+    .image{
+      width: 30vw;
+      height: 20vh;
     }
   }
   @media (max-width: 768px){
     .sales{
       grid-template-columns: repeat(2, 1fr);
-      margin-left: 15.229vw;
+      margin-left: 10.229vw;
+    }
+    .information{
+      width: 30vw;
+      height: 10vh;
+    }
+    .image{
+      width: 30vw;
+      height: 20vh;
     }
   }
   
