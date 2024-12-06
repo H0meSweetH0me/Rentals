@@ -176,8 +176,8 @@ a{
   .footer > .io{
     text-align: center;
     position: relative;
-    bottom: 0px;
-    left: 100%;
+    
+    left: 31vw;
   }
   
   .footer-links > .xx{
@@ -207,9 +207,11 @@ a{
   }
  .first > h3{
   display: inline-block;
+  font-size: 1.646vw;
  }
  .second > h3{
   display: inline-block;
+  font-size: 1.646vw;
  }
  .footer-contact > div{
   margin: 0.658vw;
@@ -229,12 +231,12 @@ a{
   }
   .io-hr{
     height: 0.5vh;
-    width: 100vh;
+    width: 50vw;
     background-color: #000;
     border: none;
     position: absolute;
     bottom: 9.875vw;
-    left: 26%;
+    left:25vw
   }
 
   .socialMedia{
