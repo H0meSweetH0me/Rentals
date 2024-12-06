@@ -161,8 +161,7 @@ p{
   .footer > .io{
     text-align: center;
     position: relative;
-    bottom: 0px;
-    left: 100%;
+    left: 31vw;
   }
   
   .footer-links > .xx{
@@ -214,13 +213,13 @@ p{
     border: none;
   }
   .io-hr{
-    height: 4px;
-    width: 100vh;
+    height: 0.5vh;
+    width: 50vw;
     background-color: #000;
     border: none;
     position: absolute;
-    bottom: 150px;
-    left: 26%;
+    bottom: 9.875vw;
+    left:25vw
   }
 
   .socialMedia{

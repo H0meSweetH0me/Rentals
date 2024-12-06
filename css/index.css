@@ -178,7 +178,6 @@ a{
   .footer > .io{
     text-align: center;
     position: relative;
-    
     left: 31vw;
   }
   
@@ -295,7 +294,7 @@ a{
       height: 20vh;
     }
   }
-  @media (max-width: 640px){
+  @media (max-width: 530px){
     .sales{
       grid-template-columns: repeat(2, 1fr);
       margin-left: 10.229vw;
