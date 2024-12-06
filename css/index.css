@@ -99,6 +99,8 @@ a{
   }
 
 
+
+
   .sales{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -279,4 +281,31 @@ a{
   margin-left: 1.317vw; 
   border: none;
  }
+  @media (max-width: 475px){
+    .sales{
+      grid-template-columns: repeat(2, 1fr);
+      margin-left: 8.229vw;
+    }
+  }
+  @media (max-width: 640px){
+    .sales{
+      grid-template-columns: repeat(2, 1fr);
+      margin-left: 8.229vw;
+    }
+  }
+  @media (max-width: 768px){
+    .sales{
+      grid-template-columns: repeat(2, 1fr);
+      margin-left: 15.229vw;
+    }
+  }
+  @media (max-width: 1024px){
+
+  }
+  @media (max-width: 1280px){
+
+  }
+  @media (max-width: 1536px){
+
+  }
   
