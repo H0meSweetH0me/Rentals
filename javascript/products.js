@@ -7,7 +7,7 @@
 export const products = [{
     id:1,
     image:'images/house.jpeg',
-    isAvailable: 'available',
+    isAvailable: 'Available',
     dateAded: '2024/10/24',
     address: 'uskudar/istanbul',
     price: 100,
@@ -20,7 +20,7 @@ export const products = [{
 {
     id:2,
     image:'images/2house1.jpeg',
-    isAvailable: 'available',
+    isAvailable: 'Available',
     dateAded: '2024/11/16',
     address: 'Beykoz/Istanbul',
     price: 300,
@@ -33,7 +33,7 @@ export const products = [{
 {
     id:3,
     image:'images/2house2.jpeg',
-    isAvailable: 'available',
+    isAvailable: 'Available',
     dateAded: '2024/11/16',
     address: 'Texas/USA',
     price: 8000,
@@ -47,7 +47,7 @@ export const products = [{
 {
     id:4,
     image:'images/house2.jpeg',
-    isAvailable: 'available',
+    isAvailable: 'Available',
     dateAded: '2024/11/16',
     address: 'asya/earth',
     price: 1000,
@@ -61,7 +61,7 @@ export const products = [{
 {
     id:5,
     image:'images/house4.jpeg',
-    isAvailable: 'available',
+    isAvailable: 'Available',
     dateAded: '2024/11/16',
     address: 'Barcelona/Spain',
     price: 160000,
@@ -75,7 +75,7 @@ export const products = [{
 {
     id:6,
     image:'images/2house4.jpeg',
-    isAvailable: 'available',
+    isAvailable: 'Available',
     dateAded: '2024/11/16',
     address: 'europe/earth',
     price: 200,
@@ -87,7 +87,7 @@ export const products = [{
 },{
     id:1,
     image:'images/house.jpeg',
-    isAvailable: 'available',
+    isAvailable: 'Available',
     dateAded: '2024/10/24',
     address: 'uskudar/istanbul',
     price: 100,
@@ -100,7 +100,7 @@ export const products = [{
 {
     id:2,
     image:'images/2house1.jpeg',
-    isAvailable: 'available',
+    isAvailable: 'Available',
     dateAded: '2024/11/16',
     address: 'Beykoz/Istanbul',
     price: 300,
@@ -113,7 +113,7 @@ export const products = [{
 {
     id:3,
     image:'images/2house2.jpeg',
-    isAvailable: 'available',
+    isAvailable: 'Available',
     dateAded: '2024/11/16',
     address: 'Texas/USA',
     price: 8000,
@@ -127,7 +127,7 @@ export const products = [{
 {
     id:4,
     image:'images/house2.jpeg',
-    isAvailable: 'available',
+    isAvailable: 'Available',
     dateAded: '2024/11/16',
     address: 'asya/earth',
     price: 1000,
@@ -141,7 +141,7 @@ export const products = [{
 {
     id:5,
     image:'images/house4.jpeg',
-    isAvailable: 'available',
+    isAvailable: 'Available',
     dateAded: '2024/11/16',
     address: 'Barcelona/Spain',
     price: 160000,
@@ -155,7 +155,7 @@ export const products = [{
 {
     id:6,
     image:'images/2house4.jpeg',
-    isAvailable: 'available',
+    isAvailable: 'Available',
     dateAded: '2024/11/16',
     address: 'europe/earth',
     price: 200,
@@ -167,7 +167,7 @@ export const products = [{
 },{
     id:1,
     image:'images/house.jpeg',
-    isAvailable: 'available',
+    isAvailable: 'Available',
     dateAded: '2024/10/24',
     address: 'uskudar/istanbul',
     price: 100,
@@ -180,7 +180,7 @@ export const products = [{
 {
     id:2,
     image:'images/2house1.jpeg',
-    isAvailable: 'available',
+    isAvailable: 'Available',
     dateAded: '2024/11/16',
     address: 'Beykoz/Istanbul',
     price: 300,
@@ -193,7 +193,7 @@ export const products = [{
 {
     id:3,
     image:'images/2house2.jpeg',
-    isAvailable: 'available',
+    isAvailable: 'Available',
     dateAded: '2024/11/16',
     address: 'Texas/USA',
     price: 8000,
@@ -207,7 +207,7 @@ export const products = [{
 {
     id:4,
     image:'images/house2.jpeg',
-    isAvailable: 'available',
+    isAvailable: 'Available',
     dateAded: '2024/11/16',
     address: 'asya/earth',
     price: 1000,
@@ -221,7 +221,7 @@ export const products = [{
 {
     id:5,
     image:'images/house4.jpeg',
-    isAvailable: 'available',
+    isAvailable: 'Available',
     dateAded: '2024/11/16',
     address: 'Barcelona/Spain',
     price: 160000,
@@ -235,7 +235,7 @@ export const products = [{
 {
     id:6,
     image:'images/2house4.jpeg',
-    isAvailable: 'available',
+    isAvailable: 'Available',
     dateAded: '2024/11/16',
     address: 'europe/earth',
     price: 200,
