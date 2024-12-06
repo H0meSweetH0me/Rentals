@@ -286,42 +286,15 @@ a{
       margin-left: 10.229vw;
     }
     .information{
-      width: 30vw;
-      height: 10vh;
+      width: 35vw;
+      height: 9vh;
     }
     .image{
-      width: 30vw;
-      height: 20vh;
+      width: 35vw;
+      height: 18vh;
     }
   }
-  @media (max-width: 530px){
-    .sales{
-      grid-template-columns: repeat(2, 1fr);
-      margin-left: 10.229vw;
-    }
-    .information{
-      width: 30vw;
-      height: 10vh;
-    }
-    .image{
-      width: 30vw;
-      height: 20vh;
-    }
-  }
-  @media (max-width: 768px){
-    .sales{
-      grid-template-columns: repeat(2, 1fr);
-      margin-left: 10.229vw;
-    }
-    .information{
-      width: 30vw;
-      height: 10vh;
-    }
-    .image{
-      width: 30vw;
-      height: 20vh;
-    }
-  }
+  
   
   @media (max-width: 1280px){
 
