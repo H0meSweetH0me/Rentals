@@ -9,7 +9,6 @@
   }
   .heading{
     margin-bottom: 13.167vw;
-    
   }
 .head{
     width: 100vw;
@@ -287,17 +286,24 @@ a{
   border: none;
  }
   @media (max-width: 475px){
+    .heading{
+      margin-bottom: 21.5vw;
+    }
     .sales{
       grid-template-columns: repeat(2, 1fr);
-      margin-left: 10.229vw;
+      margin-left: 0;
+    }
+    .products{
+      margin: 0.5vw 3vw;
+      padding: 5vw;
     }
     .information{
       width: 35vw;
-      height: 10vh;
+      height: 9vh;
     }
     .image{
       width: 35vw;
-      height: 20vh;
+      height: 18vh;
     }
     .date,.address,.price,.isAvailable{
       font-size: 2.8vw;
