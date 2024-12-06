@@ -287,7 +287,7 @@ a{
  }
   @media (max-width: 475px){
     .heading{
-      margin-bottom: 21.5vw;
+      margin-bottom: 28vw;
     }
     .sales{
       grid-template-columns: repeat(2, 1fr);
@@ -295,7 +295,7 @@ a{
     }
     .products{
       margin: 0.5vw 3vw;
-      padding: 5vw;
+      padding: 4vw;
     }
     .information{
       width: 35vw;
