@@ -161,7 +161,9 @@ p{
   .footer > .io{
     text-align: center;
     position: relative;
+    top: 50%;
     left: 31vw;
+    height: 3vh;
   }
   
   .footer-links > .xx{
@@ -218,7 +220,7 @@ p{
     background-color: #000;
     border: none;
     position: absolute;
-    bottom: 9.875vw;
+    top: 75%;
     left:25vw
   }
 
