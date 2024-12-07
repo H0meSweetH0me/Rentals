@@ -103,9 +103,9 @@ export const products = [{
     image:'images/house4.jpeg',
     isAvailable: 'Available',
     dateAded: '2024/11/16',
-    address: 'beylikduzu/istanbul',
+    address: 'avcilar/istanbul',
     price: 160000,
-    keywords: 'beylikduzu 1+1 istanbul'
+    keywords: 'avcilar 1+1 istanbul'
 }
 ,
 {
@@ -149,9 +149,9 @@ export const products = [{
     image:'images/house2.jpeg',
     isAvailable: 'Available',
     dateAded: '2024/11/16',
-    address: 'beylikduzu/istanbul',
+    address: 'umraniye/istanbul',
     price: 1000,
-    keywords: 'beylikduzu 4+2 istanbul'
+    keywords: 'umraniye 4+2 istanbul'
 }
 ,
 {
