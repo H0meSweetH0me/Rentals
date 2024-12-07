@@ -304,11 +304,11 @@ a{
     .name{
       font-size: 7vw;
       top: 2vh;
-      left: 18.5vh;
+      left: 31.057vw;
     }
     #nav-bar > ul{
       height: 30%;
-      top: 8.5vh;
+      top: 8.7vh;
     }
     #nav-bar > ul > li{
       width: 15vw;
@@ -331,7 +331,7 @@ a{
       bottom: 2vh;
     }
     .searchInput{
-      padding-top: 0.5vh;
+      padding-top: 0.2vh;
       height: 24px;
       font-size: 14px;
     }
