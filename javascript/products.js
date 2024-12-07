@@ -11,11 +11,7 @@ export const products = [{
     dateAded: '2024/10/24',
     address: 'uskudar/istanbul',
     price: 100,
-    keywords: [
-        "windows",
-        "without",
-        "uskudar"
-    ]
+    keywords: 'uskudar 3+1 istanbul'
 },
 {
     id:2,
@@ -24,24 +20,16 @@ export const products = [{
     dateAded: '2024/11/16',
     address: 'Beykoz/Istanbul',
     price: 300,
-    keywords: [
-        "windows",
-        "without",
-        "uskudar"
-    ]
+    keywords: 'beykoz 2+1 istanbul'
 },
 {
     id:3,
     image:'images/2house2.jpeg',
     isAvailable: 'Available',
     dateAded: '2024/11/16',
-    address: 'Texas/USA',
+    address: 'uskudar/istanbul',
     price: 8000,
-    keywords: [
-        "windows",
-        "without",
-        "uskudar"
-    ]
+    keywords: 'uskudar 3+1 istanbul'
 }
 ,
 {
@@ -49,13 +37,9 @@ export const products = [{
     image:'images/house2.jpeg',
     isAvailable: 'Available',
     dateAded: '2024/11/16',
-    address: 'asya/earth',
+    address: 'esenyurt/istanbul',
     price: 1000,
-    keywords: [
-        "windows",
-        "without",
-        "uskudar"
-    ]
+    keywords: 'esenyurt 4+1 istanbul'
 }
 ,
 {
@@ -63,13 +47,9 @@ export const products = [{
     image:'images/house4.jpeg',
     isAvailable: 'Available',
     dateAded: '2024/11/16',
-    address: 'Barcelona/Spain',
+    address: 'umraniye/istanbul',
     price: 160000,
-    keywords: [
-        "windows",
-        "without",
-        "uskudar"
-    ]
+    keywords: 'umraniye 4+1 istanbul'
 }
 ,
 {
@@ -77,13 +57,9 @@ export const products = [{
     image:'images/2house4.jpeg',
     isAvailable: 'Available',
     dateAded: '2024/11/16',
-    address: 'europe/earth',
+    address: 'esenyurt/istanbul',
     price: 200,
-    keywords: [
-        "windows",
-        "without",
-        "uskudar"
-    ]
+    keywords: 'esenyurt 3+1 istanbul'
 },{
     id:1,
     image:'images/house.jpeg',
@@ -91,11 +67,7 @@ export const products = [{
     dateAded: '2024/10/24',
     address: 'uskudar/istanbul',
     price: 100,
-    keywords: [
-        "windows",
-        "without",
-        "uskudar"
-    ]
+    keywords: 'uskudar 1+1 istanbul'
 },
 {
     id:2,
@@ -104,24 +76,16 @@ export const products = [{
     dateAded: '2024/11/16',
     address: 'Beykoz/Istanbul',
     price: 300,
-    keywords: [
-        "windows",
-        "without",
-        "uskudar"
-    ]
+    keywords: 'beykoz 1+1 istanbul'
 },
 {
     id:3,
     image:'images/2house2.jpeg',
     isAvailable: 'Available',
     dateAded: '2024/11/16',
-    address: 'Texas/USA',
+    address: 'fatih/istanbul',
     price: 8000,
-    keywords: [
-        "windows",
-        "without",
-        "uskudar"
-    ]
+    keywords: 'fatih 3+2 istanbul'
 }
 ,
 {
@@ -129,13 +93,9 @@ export const products = [{
     image:'images/house2.jpeg',
     isAvailable: 'Available',
     dateAded: '2024/11/16',
-    address: 'asya/earth',
+    address: 'umraniye/istanbul',
     price: 1000,
-    keywords: [
-        "windows",
-        "without",
-        "uskudar"
-    ]
+    keywords: 'umraniye 3+1 istanbul'
 }
 ,
 {
@@ -143,13 +103,9 @@ export const products = [{
     image:'images/house4.jpeg',
     isAvailable: 'Available',
     dateAded: '2024/11/16',
-    address: 'Barcelona/Spain',
+    address: 'beylikduzu/istanbul',
     price: 160000,
-    keywords: [
-        "windows",
-        "without",
-        "uskudar"
-    ]
+    keywords: 'beylikduzu 1+1 istanbul'
 }
 ,
 {
@@ -157,13 +113,9 @@ export const products = [{
     image:'images/2house4.jpeg',
     isAvailable: 'Available',
     dateAded: '2024/11/16',
-    address: 'europe/earth',
+    address: 'avcilar/istanbul',
     price: 200,
-    keywords: [
-        "windows",
-        "without",
-        "uskudar"
-    ]
+    keywords: 'avcilar 2+1 istanbul'
 },{
     id:1,
     image:'images/house.jpeg',
@@ -171,11 +123,7 @@ export const products = [{
     dateAded: '2024/10/24',
     address: 'uskudar/istanbul',
     price: 100,
-    keywords: [
-        "windows",
-        "without",
-        "uskudar"
-    ]
+    keywords: 'uskudar 1+1 istanbul'
 },
 {
     id:2,
@@ -184,24 +132,16 @@ export const products = [{
     dateAded: '2024/11/16',
     address: 'Beykoz/Istanbul',
     price: 300,
-    keywords: [
-        "windows",
-        "without",
-        "uskudar"
-    ]
+    keywords: 'beykoz 2+1 istanbul'
 },
 {
     id:3,
     image:'images/2house2.jpeg',
     isAvailable: 'Available',
     dateAded: '2024/11/16',
-    address: 'Texas/USA',
+    address: 'avcilar/istanbul',
     price: 8000,
-    keywords: [
-        "windows",
-        "without",
-        "uskudar"
-    ]
+    keywords: 'avcilar 4+1 istanbul'
 }
 ,
 {
@@ -209,13 +149,9 @@ export const products = [{
     image:'images/house2.jpeg',
     isAvailable: 'Available',
     dateAded: '2024/11/16',
-    address: 'asya/earth',
+    address: 'beylikduzu/istanbul',
     price: 1000,
-    keywords: [
-        "windows",
-        "without",
-        "uskudar"
-    ]
+    keywords: 'beylikduzu 4+2 istanbul'
 }
 ,
 {
@@ -223,13 +159,9 @@ export const products = [{
     image:'images/house4.jpeg',
     isAvailable: 'Available',
     dateAded: '2024/11/16',
-    address: 'Barcelona/Spain',
+    address: 'beykoz/istanbul',
     price: 160000,
-    keywords: [
-        "windows",
-        "without",
-        "uskudar"
-    ]
+    keywords: 'beykoz 3+1 istanbul'
 }
 ,
 {
@@ -237,14 +169,44 @@ export const products = [{
     image:'images/2house4.jpeg',
     isAvailable: 'Available',
     dateAded: '2024/11/16',
-    address: 'europe/earth',
+    address: 'fatih/istanbul',
     price: 200,
-    keywords: [
-        "windows",
-        "without",
-        "uskudar"
-    ]
+    keywords: 'fatih 2+1 istanbul'
 }
 
 
 ];
+
+const categories = [...new Set(products.map((item) => {return item}))]
+document.getElementById('searchBar').addEventListener('keyup', (e) => {
+    const searchData = e.target.value.toLowerCase();
+    const filterData = categories.filter((item) => {
+        return(
+            item.keywords.toLocaleLowerCase().includes(searchData)
+        )
+    })
+    displayItem(filterData)
+});
+const displayItem = (items) => {
+    document.querySelector('.js-sales').innerHTML = items.map((item) =>{
+        var {id, image,isAvailable,dateAded,address,price} = item;
+        return(
+            `<div class="products">
+            <a href="second.html?id=${id}"> <img class="image" src="${image}" alt="image"></a>
+             <section class="information">
+             <div class="dateAddress">
+                 <p class="date">${dateAded}</p>
+                 <p class="address">${address}</p>
+            </div>
+            <div class="priceAvailable">
+                 <p class="price">${price} tl</p>
+                 <p class="isAvailable">${isAvailable}</p>
+            </div>
+             </section>
+             
+         </div>`
+        )
+    }).join('')
+    
+};
+displayItem(categories);

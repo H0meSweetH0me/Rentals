@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+    <script src="javascript/products.js" defer></script>
 </head>
 <body>
     <main>
@@ -15,10 +17,10 @@
         <header class="head" id="header">
             <p class="name">SlaveMarket.COM</p>
             <section class="search">
-            <form class="searchBar" action="/search" method="GET">
-                <input class="searchInput" type="search" name="query" placeholder="search..."/>
-                <button class="submit" type="submit"><i class="fa fa-search"></i></button>
-            </form>
+                <div class="searchContainer">
+                <span class="searchIcon material-symbols-outlined">search</span>
+                <input id="searchBar" class="searchInput" type="search" name="query" placeholder="search..."/>
+                </div>
         </section>
 
             <nav id="nav-bar">
