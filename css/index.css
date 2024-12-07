@@ -308,7 +308,7 @@ a{
     }
     #nav-bar > ul{
       height: 30%;
-      top: 8.7vh;
+      top: 8.8vh;
     }
     #nav-bar > ul > li{
       width: 15vw;
@@ -361,6 +361,26 @@ a{
     }
     .address,.isAvailable{
       margin-right: 1vw;
+    }
+    .footer{
+      grid-template-columns: repeat(1, 1fr);
+      
+    }
+    .footer-contact{
+      width: 200px;
+      height: 110px;
+      
+    }
+    .socialMedia{
+      width: 200px;
+      height: 110px;
+    }
+    .laylaylom{
+      width: 200px;
+      height: 110px;
+    }
+    .io{
+      width: 150px;
     }
   }
   
