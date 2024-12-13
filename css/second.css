@@ -150,118 +150,160 @@ p{
 
 
 .footer{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    position: relative;
-    width: 100%;
-    height: 85vh;
-    background-color: #DBD7D2;
-  }
- 
-  .footer > .io{
-    text-align: center;
-    position: relative;
-    top: 50%;
-    left: 31vw;
-    height: 3vh;
-  }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  bottom: 0;
+  left: 0;
+  background-color: blanchedalmond;
+  width: 100vw;
+  height: 83vh;
+}
+
+.footer > .io{
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 24vw;
+  height: 3vh;
+  font-size: 1.5vw;
+}
+
+.footer-links > .xx{
+  position: relative;
+  left: 0.658vw;
+  top: 0.658vw;
+  padding: 0;
+}
+.footer-links > .xx > li{
+  display: block;
+  margin: 0.527vw 0.527vw;
+  padding: 0.211vw;
+  color: white;
+  width: 15.142vw;
+  border-radius: 25px;
+}
+.footer-links > .xx > li:hover{
+  background-color: white;
+  border-radius: 10px;
   
-  .footer-links > .xx{
-    position: relative;
-    left: 10px;
-    top: 10px;
-    padding: 0;
-  }
-  .footer-links > .xx > li{
-    display: block;
-    margin: 0.5rem 0.5rem;
-    padding: 0.2rem;
-    color: white;
-    width: 230px;
-    border-radius: 25px;
-  }
-  .footer-links > .xx > li:hover{
-    background-color: white;
-    border-radius: 10px;
-    
+}
+.footer-contact{
+  display: block;
+  position: relative;
+  left: 20vw;
+  top: 6.292vw;
+  height: 20vw;
+  width: 27vw;
+}
+.first{
+  height: 30px;
+}
+.first > h3{
+display: inline-block;
+font-size: 1.646vw;
+margin: 0;
+}
+.second{
+  height: 30px;
+}
+.second > h3{
+display: inline-block;
+font-size: 1.646vw;
+margin: 0;
+}
+.footer-contact > div{
+margin: 0.658vw;
+}
+
+.footer-contact > p{
+  margin-left: 0.658vw;
+  font-size: 1.646vw;
+  font-weight: bold;
+}
+.footer-contact > hr{
+  height: 0.3vh;
+  width: 16.142vw; 
+  background-color: black; 
+  margin-left: 0.658vw; 
+  border: none;
+}
+.io-hr{
+  height: 0.5vh;
+  width: 60vw;
+  background-color: #000;
+  border: none;
+  position: absolute;
+  top: 75%;
+  left:20vw
+}
+
+.socialMedia{
+  display: block;
+  position: relative;
+  top: 6.292vw;
+  left: 12vw;
+  height: 20vw;
+  width: 27vw;
+}
+
+.socialMedia > p{
+  margin-left: 1.317vw;
+  font-size: 1.646vw;
+  font-weight: bold;
+}
+.socialMedia > hr{
+  height: 0.3vh;
+  width: 15.142vw; 
+  background-color: black; 
+  margin-left: 1.317vw; 
+  border: none;
+}
+@media (max-width: 475px){
+  .footer{
+    grid-template-columns: repeat(2, 1fr);
+    height: 50vh;
   }
   .footer-contact{
-    display: block;
-    position: relative;
-    margin-left: 50px;
-    top: 50px;
-    height: 400px;
+    width: 200px;
+    height: 110px;
+    left: 5vw;
   }
- .first > h3{
-  display: inline-block;
- }
- .second > h3{
-  display: inline-block;
- }
- .footer-contact > div{
-  margin: 10px;
- }
- 
+  .socialMedia{
+    width: 200px;
+    height: 110px;
+    left: 5vw;
+  }
+  .io{
+    width: 150px;
+  }
+  .first > h3{
+    font-size: 3.5vw;
+  }
+  .second > h3{
+    font-size: 3.5vw;
+  }
   .footer-contact > p{
-    margin-left: 10px;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 3.5vw;
   }
   .footer-contact > hr{
-    height: 3px;
-    width: 230px; 
-    background-color: black; 
-    margin-left: 10px; 
-    border: none;
+    width: 35vw;
   }
-  .io-hr{
-    height: 0.5vh;
-    width: 50vw;
-    background-color: #000;
-    border: none;
-    position: absolute;
-    top: 75%;
-    left:25vw
-  }
-
-  .socialMedia{
-    display: block;
-    position: relative;
-    top: 50px;
-    left: 50px;
-    height: 400px;
-  }
-
   .socialMedia > p{
-    margin-left: 20px;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 3.5vw;
   }
   .socialMedia > hr{
-    height: 3px;
-    width: 230px; 
-    background-color: black; 
-    margin-left: 20px; 
-    border: none;
+    width: 35vw;
   }
- .laylaylom{
-    display: block;
-    position: relative;
-    top: 50px;
-    left: 50px;
-    height: 400px;
-    width: 350px;
- }
- .laylaylom > p{
-    margin-left: 20px;
-    font-size: 25px;
-    font-weight: bold;
- }
- .laylaylom > hr{
-  height: 3px;
-  width: 230px; 
-  background-color: black; 
-  margin-left: 20px; 
-  border: none;
- }
+  .socialMedia-links{
+    font-size: 3.5vw;
+  }
+  .footer-links > .xx > li{
+    width: 25vw;
+  }
+  .footer > .io{
+    font-size: 3.2vw;
+    left: 32vw;
+  }
   
+}
