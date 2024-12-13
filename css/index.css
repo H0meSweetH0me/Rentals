@@ -181,7 +181,7 @@ a{
 
   .footer{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     position: relative;
     bottom: 0;
     left: 0;
@@ -194,8 +194,9 @@ a{
     text-align: center;
     position: relative;
     top: 50%;
-    left: 31vw;
+    left: 25vw;
     height: 3vh;
+    font-size: 1.5vw;
   }
   
   .footer-links > .xx{
@@ -219,9 +220,11 @@ a{
   .footer-contact{
     display: block;
     position: relative;
-    margin-left: 3.292vw;
-    top: 3.292vw;
+    left: 20vw;
+    top: 6.292vw;
     height: 20vw;
+    width: 27vw;
+    
   }
  .first > h3{
   display: inline-block;
@@ -242,27 +245,28 @@ a{
   }
   .footer-contact > hr{
     height: 0.3vh;
-    width: 15.142vw; 
+    width: 16.142vw; 
     background-color: black; 
     margin-left: 0.658vw; 
     border: none;
   }
   .io-hr{
     height: 0.5vh;
-    width: 50vw;
+    width: 60vw;
     background-color: #000;
     border: none;
     position: absolute;
     top: 75%;
-    left:25vw
+    left:20vw
   }
 
   .socialMedia{
     display: block;
     position: relative;
-    top: 3.292vw;
-    left: 3.292vw;
+    top: 6.292vw;
+    left: 12vw;
     height: 20vw;
+    width: 27vw;
   }
 
   .socialMedia > p{
@@ -277,26 +281,7 @@ a{
     margin-left: 1.317vw; 
     border: none;
   }
- .laylaylom{
-    display: block;
-    position: relative;
-    top: 3.292vw;
-    left: 3.292vw;
-    height: 20vw;
-    width: 23.041vw;
- }
- .laylaylom > p{
-    margin-left: 1.317vw;
-    font-size: 1.646vw;
-    font-weight: bold;
- }
- .laylaylom > hr{
-  height: 0.3vh;
-  width: 15.142vw; 
-  background-color: black; 
-  margin-left: 1.317vw; 
-  border: none;
- }
+
   @media (max-width: 475px){
     .heading{
       margin-bottom: 28vw;
@@ -363,25 +348,51 @@ a{
       margin-right: 1vw;
     }
     .footer{
-      grid-template-columns: repeat(1, 1fr);
-      
+      grid-template-columns: repeat(2, 1fr);
+      height: 50vh;
     }
     .footer-contact{
       width: 200px;
       height: 110px;
-      
+      left: 5vw;
     }
     .socialMedia{
       width: 200px;
       height: 110px;
-    }
-    .laylaylom{
-      width: 200px;
-      height: 110px;
+      left: 5vw;
     }
     .io{
       width: 150px;
     }
+    .first > h3{
+      font-size: 3.5vw;
+    }
+    .second > h3{
+      font-size: 3.5vw;
+    }
+    .footer-contact > p{
+      font-size: 3.5vw;
+    }
+    .footer-contact > hr{
+      width: 35vw;
+    }
+    .socialMedia > p{
+      font-size: 3.5vw;
+    }
+    .socialMedia > hr{
+      width: 35vw;
+    }
+    .socialMedia-links{
+      font-size: 3.5vw;
+    }
+    .footer-links > .xx > li{
+      width: 25vw;
+    }
+    .footer > .io{
+      font-size: 3.2vw;
+      left: 32vw;
+    }
+    
   }
   
   
