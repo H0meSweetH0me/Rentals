@@ -1,9 +1,6 @@
-//TODO:make the address layout on products on right
-//TODO:change serchbar and make it interactive
 //TODO:add filters like all rooms and flats
 //TODO:change the image slider
 //TODO:make all scale changes to fit to mobile devices
-//TODO:chnage the grid column from 3 to 2 on mobile devices
 export const products = [{
     id:1,
     image:'images/house.jpeg',
