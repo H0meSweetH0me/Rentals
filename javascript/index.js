@@ -23,8 +23,3 @@ products.forEach((product) => {
 });
 
 document.querySelector('.js-sales').innerHTML = productHTML;
-
-if(window.location.pathname.endsWith("index.html")){
-    const newUrl = window.location.pathname.replace("index.html", "index");
-    window.history.replaceState({}, document.title, newUrl);
-}
