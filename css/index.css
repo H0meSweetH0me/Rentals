@@ -364,8 +364,14 @@ a{
     .io{
       width: 150px;
     }
+    .first{
+      height: 35px;
+    }
     .first > h3{
       font-size: 16px;
+    }
+    .second{
+      height: 35px;
     }
     .second > h3{
       font-size: 3.5vw;
