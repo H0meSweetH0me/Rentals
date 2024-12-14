@@ -84,8 +84,8 @@ a{
 .slider{
     position: relative;
     width: 80%;
-    max-width: 800px;
-    max-height: 600px;
+    max-width: 52.659vw;
+    max-height: 82vh;
     margin: auto;
     overflow: hidden;
     border: 2px solid #ddd;
@@ -143,6 +143,7 @@ a{
   margin: auto;
   max-width: 90%;
   max-height: 90%;
+  margin-top: 6vh;
 }
 
 .close {
@@ -157,6 +158,33 @@ a{
 
 .close:hover {
   color: #bbb;
+}
+.modal .modalPrev,
+.modal .modalNext {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 11;
+  font-size: 20px;
+}
+
+.modal .modalPrev {
+  left: 15vw; 
+}
+
+.modal .modalNext {
+  right: 15vw; 
+}
+
+.modal .modalPrev:hover,
+.modal .modalNext:hover {
+  background-color: rgba(212, 205, 205, 0.8);
 }
 
 
@@ -324,6 +352,20 @@ margin: 0.658vw;
   .float{
     right: 3vw;
   }
+  .container{
+    width: 100vw;
+    padding: 0;
+}
+.slider{
+    width: 80vw;
+}
+.slides{
+  width: 80vw;
+}
+.slides img{
+  width: 80vw;
+  height: 60vw;
+}
   .description{
     width: 420px;
   }

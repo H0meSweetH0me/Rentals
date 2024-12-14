@@ -62,10 +62,23 @@ export function prevSlide() {
 
 showSlide(currentIndex);
 
+
+
 document.querySelector('.close').addEventListener('click', closeModal);
+document.querySelector('.modalNext').addEventListener('click', nextModalImage);
+document.querySelector('.modalPrev').addEventListener('click', prevModalImage);
+const images = document.querySelectorAll('.slides img');
+  images.forEach((img) => {
+    img.addEventListener('click', () => openModal(img.src));
+  });
+const imageSources = Array.from(images).map(img => img.src);
+
+let currentModalIndex = 0;
+
 function openModal(src) {
     const modal = document.getElementById('modal');
     const modalImage = document.getElementById('modalImage');
+    currentModalIndex = imageSources.indexOf(src);
     modal.style.display = 'block';
     modalImage.src = src;
   }
@@ -74,9 +87,20 @@ function openModal(src) {
     const modal = document.getElementById('modal');
     modal.style.display = 'none';
   }
+  function nextModalImage() {
+    currentModalIndex = (currentModalIndex + 1) % imageSources.length; 
+    document.getElementById('modalImage').src = imageSources[currentModalIndex];
+  }
+ 
+  function prevModalImage() {
+    currentModalIndex =
+      (currentModalIndex - 1 + imageSources.length) % imageSources.length; 
+    document.getElementById('modalImage').src = imageSources[currentModalIndex];
+  }
   
-  
-  const images = document.querySelectorAll('.slides img');
   images.forEach((img) => {
     img.addEventListener('click', () => openModal(img.src));
   });
+  
+  
+  
