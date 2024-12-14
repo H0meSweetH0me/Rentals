@@ -62,3 +62,21 @@ export function prevSlide() {
 
 showSlide(currentIndex);
 
+document.querySelector('.close').addEventListener('click', closeModal);
+function openModal(src) {
+    const modal = document.getElementById('modal');
+    const modalImage = document.getElementById('modalImage');
+    modal.style.display = 'block';
+    modalImage.src = src;
+  }
+  
+  function closeModal() {
+    const modal = document.getElementById('modal');
+    modal.style.display = 'none';
+  }
+  
+  
+  const images = document.querySelectorAll('.slides img');
+  images.forEach((img) => {
+    img.addEventListener('click', () => openModal(img.src));
+  });
