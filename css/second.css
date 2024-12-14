@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
     background-color: gainsboro;
   }
@@ -195,6 +200,7 @@ p{
   top: 6.292vw;
   height: 20vw;
   width: 27vw;
+  
 }
 .first{
   height: 30px;
@@ -211,6 +217,7 @@ margin: 0;
 display: inline-block;
 font-size: 1.646vw;
 margin: 0;
+
 }
 .footer-contact > div{
 margin: 0.658vw;
@@ -260,18 +267,41 @@ margin: 0.658vw;
   border: none;
 }
 @media (max-width: 475px){
+  .name-link{
+    width: 200px;
+  }
+  .name{
+    font-size: 30px;
+  }
+  #nav-bar > ul{
+    height: 30%;
+    top: 5.8vh;
+  }
+  #nav-bar > ul > li{
+    width: 15vw;
+    height: 8vw;
+  }
+  #nav-bar > ul > li > a{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.7vh;
+  }
+  .float{
+    right: 3vw;
+  }
   .footer{
     grid-template-columns: repeat(2, 1fr);
-    height: 50vh;
+    height: 40vh;
   }
   .footer-contact{
     width: 200px;
-    height: 110px;
+    height: 160px;
     left: 5vw;
   }
   .socialMedia{
     width: 200px;
-    height: 110px;
+    height: 160px;
     left: 5vw;
   }
   .io{
@@ -305,5 +335,6 @@ margin: 0.658vw;
     font-size: 3.2vw;
     left: 32vw;
   }
+  
   
 }
