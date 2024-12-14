@@ -9,11 +9,12 @@ products.forEach((product) => {
              <section class="information">
              <div class="dateAddress">
                  <p class="date">${product.dateAded}</p>
-                 <p class="address">${product.address}</p>
+                 <p class="isAvailable">${product.isAvailable}</p>
+                 
             </div>
             <div class="priceAvailable">
                  <p class="price">${product.price} tl</p>
-                 <p class="isAvailable">${product.isAvailable}</p>
+                 <p class="address">${product.address}</p>
             </div>
              </section>
              
@@ -23,3 +24,9 @@ products.forEach((product) => {
 });
 
 document.querySelector('.js-sales').innerHTML = productHTML;
+
+document.querySelectorAll("p").forEach((p) => {
+    if (p.textContent.trim().toLowerCase() === "rented") {
+      p.style.color = "#B31B1B"; 
+    }
+  });

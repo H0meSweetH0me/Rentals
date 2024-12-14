@@ -26,7 +26,7 @@ export const products = [{
 },
 {
     id: 'sisli-002',
-    image:'images/sisli-002/s-002-01.jpg',
+    image:'images/sisli-002/S-002-02.jpg',
     isAvailable: 'Available',
     dateAded: '2024/12/14',
     address: 'Şişli/Mecidiyeköy',
