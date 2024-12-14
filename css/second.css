@@ -149,7 +149,31 @@ p{
     
     margin: 15px 0;
 }
+.slide {
+  display: none; /* Hide all slides by default */
+}
 
+.slide.active {
+  display: block; /* Show the active slide */
+}
+.slider-wraper button{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  padding: 10px 15px;
+  background-color: hsl(0, 0%, 0%,0.5);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+
+}
+.prev{
+  left: 5px;
+}
+.next{
+  right: 5px;
+}
 
 
 
