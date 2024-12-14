@@ -290,6 +290,9 @@ margin: 0.658vw;
   .float{
     right: 3vw;
   }
+  .description{
+    width: 420px;
+  }
   .footer{
     grid-template-columns: repeat(2, 1fr);
     height: 40vh;
