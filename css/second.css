@@ -310,6 +310,11 @@ margin: 0.658vw;
   .first{
     height: 35px;
   }
+  @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+    .first > h3{
+      font-size: 3.5vw;
+    }
+  }
   .first > h3{
     font-size: 3.5vw;
   }
