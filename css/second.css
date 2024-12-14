@@ -394,6 +394,11 @@ margin: 0.658vw;
       font-size: 3.5vw;
     }
   }
+    _:-webkit-full-screen, :root {
+      .first > h3{
+        font-size: 3.5vw;
+      }
+  }
   .first > h3{
     font-size: 3.5vw;
   }
