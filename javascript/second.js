@@ -28,8 +28,10 @@ if(urun){
     document.getElementById('type').textContent = urun.type;
     document.getElementById('gender').textContent = urun.gender;
     document.getElementById('price').textContent = urun.price;
-    document.getElementById('details').textContent = urun.details;
-    document.getElementById('nearstLoc').textContent = urun.nerastLoc;
+    document.getElementById('paymentType').textContent = urun.paymentType;
+    document.getElementById('aptArea').textContent = urun.apartmentErea;
+    document.getElementById('deposit').textContent = urun.deposit;
+    document.getElementById('commission').textContent = urun.commission;
 }else{
     document.body.innerHTML = '<h1>IT`S NOT AVAILABLE FOR NOW</h1>';
 }

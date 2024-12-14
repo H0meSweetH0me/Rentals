@@ -1,174 +1,55 @@
+/*
+{
+    id: '',
+    image:'',
+    isAvailable: '',
+    dateAded: '',
+    address: '',
+    price: '',
+    keywords: ''
+}
+*/
+
+
+
 //TODO:add filters like all rooms and flats
 //TODO:change the image slider
 //TODO:make all scale changes to fit to mobile devices
 export const products = [{
-    id:1,
-    image:'images/house.jpeg',
+    id:'sisli-001',
+    image:'images/sisli-001/S-001-02.jpg',
     isAvailable: 'Available',
-    dateAded: '2024/10/24',
-    address: 'uskudar/istanbul',
-    price: 100,
-    keywords: 'uskudar 3+1 istanbul'
+    dateAded: '2024/12/14',
+    address: 'Şişli/Mecidiyeköy',
+    price: '17000',
+    keywords: 'şişli 3+1 mecidiyeköy istanbul'
 },
 {
-    id:2,
-    image:'images/2house1.jpeg',
+    id: 'sisli-002',
+    image:'images/sisli-002/s-002-01.jpg',
     isAvailable: 'Available',
-    dateAded: '2024/11/16',
-    address: 'Beykoz/Istanbul',
-    price: 300,
-    keywords: 'beykoz 2+1 istanbul'
+    dateAded: '2024/12/14',
+    address: 'Şişli/Mecidiyeköy',
+    price: '23000',
+    keywords: 'şişli 2+1 mecidiyeköy istanbul'
 },
 {
-    id:3,
-    image:'images/2house2.jpeg',
+    id: 'kavacik-001',
+    image:'images/kavacik-001/K-001-02.jpg',
     isAvailable: 'Available',
-    dateAded: '2024/11/16',
-    address: 'uskudar/istanbul',
-    price: 8000,
-    keywords: 'uskudar 3+1 istanbul'
-}
-,
-{
-    id:4,
-    image:'images/house2.jpeg',
-    isAvailable: 'Available',
-    dateAded: '2024/11/16',
-    address: 'esenyurt/istanbul',
-    price: 1000,
-    keywords: 'esenyurt 4+1 istanbul'
-}
-,
-{
-    id:5,
-    image:'images/house4.jpeg',
-    isAvailable: 'Available',
-    dateAded: '2024/11/16',
-    address: 'umraniye/istanbul',
-    price: 160000,
-    keywords: 'umraniye 4+1 istanbul'
-}
-,
-{
-    id:6,
-    image:'images/2house4.jpeg',
-    isAvailable: 'Available',
-    dateAded: '2024/11/16',
-    address: 'esenyurt/istanbul',
-    price: 200,
-    keywords: 'esenyurt 3+1 istanbul'
-},{
-    id:1,
-    image:'images/house.jpeg',
-    isAvailable: 'Available',
-    dateAded: '2024/10/24',
-    address: 'uskudar/istanbul',
-    price: 100,
-    keywords: 'uskudar 1+1 istanbul'
+    dateAded: '2024/12/14',
+    address: 'Soğuksu/Beykoz',
+    price: '17500',
+    keywords: 'soğuksu 2+1 beykoz istanbul'
 },
 {
-    id:2,
-    image:'images/2house1.jpeg',
+    id: 'kavacik-002',
+    image:'images/kavacik-002/K-002-01.jpg',
     isAvailable: 'Available',
-    dateAded: '2024/11/16',
-    address: 'Beykoz/Istanbul',
-    price: 300,
-    keywords: 'beykoz 1+1 istanbul'
-},
-{
-    id:3,
-    image:'images/2house2.jpeg',
-    isAvailable: 'Available',
-    dateAded: '2024/11/16',
-    address: 'fatih/istanbul',
-    price: 8000,
-    keywords: 'fatih 3+2 istanbul'
-}
-,
-{
-    id:4,
-    image:'images/house2.jpeg',
-    isAvailable: 'Available',
-    dateAded: '2024/11/16',
-    address: 'umraniye/istanbul',
-    price: 1000,
-    keywords: 'umraniye 3+1 istanbul'
-}
-,
-{
-    id:5,
-    image:'images/house4.jpeg',
-    isAvailable: 'Available',
-    dateAded: '2024/11/16',
-    address: 'avcilar/istanbul',
-    price: 160000,
-    keywords: 'avcilar 1+1 istanbul'
-}
-,
-{
-    id:6,
-    image:'images/2house4.jpeg',
-    isAvailable: 'Available',
-    dateAded: '2024/11/16',
-    address: 'avcilar/istanbul',
-    price: 200,
-    keywords: 'avcilar 2+1 istanbul'
-},{
-    id:1,
-    image:'images/house.jpeg',
-    isAvailable: 'Available',
-    dateAded: '2024/10/24',
-    address: 'uskudar/istanbul',
-    price: 100,
-    keywords: 'uskudar 1+1 istanbul'
-},
-{
-    id:2,
-    image:'images/2house1.jpeg',
-    isAvailable: 'Available',
-    dateAded: '2024/11/16',
-    address: 'Beykoz/Istanbul',
-    price: 300,
-    keywords: 'beykoz 2+1 istanbul'
-},
-{
-    id:3,
-    image:'images/2house2.jpeg',
-    isAvailable: 'Available',
-    dateAded: '2024/11/16',
-    address: 'avcilar/istanbul',
-    price: 8000,
-    keywords: 'avcilar 4+1 istanbul'
-}
-,
-{
-    id:4,
-    image:'images/house2.jpeg',
-    isAvailable: 'Available',
-    dateAded: '2024/11/16',
-    address: 'umraniye/istanbul',
-    price: 1000,
-    keywords: 'umraniye 4+2 istanbul'
-}
-,
-{
-    id:5,
-    image:'images/house4.jpeg',
-    isAvailable: 'Available',
-    dateAded: '2024/11/16',
-    address: 'beykoz/istanbul',
-    price: 160000,
-    keywords: 'beykoz 3+1 istanbul'
-}
-,
-{
-    id:6,
-    image:'images/2house4.jpeg',
-    isAvailable: 'Available',
-    dateAded: '2024/11/16',
-    address: 'fatih/istanbul',
-    price: 200,
-    keywords: 'fatih 2+1 istanbul'
+    dateAded: '2024/12/14',
+    address: 'Kavacık/Beykoz',
+    price: '25000',
+    keywords: 'kavacık 3+1 kavacik beykoz istanbul'
 }
 
 
