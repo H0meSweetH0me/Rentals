@@ -377,7 +377,7 @@ margin: 0.658vw;
   margin-top: 12vh;
 }
   .description{
-    width: 420px;
+    width: 70vw;
   }
   .footer{
     grid-template-columns: repeat(2, 1fr);
