@@ -402,6 +402,9 @@ margin: 0.658vw;
   .first > .pNumber{
     font-size: 3.5vw;
   }
+  .safari .pNumber{
+    font-size: 3.5vw;
+  }
   .second{
     height: 35px;
   }

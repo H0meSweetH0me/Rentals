@@ -30,3 +30,9 @@ document.querySelectorAll("p").forEach((p) => {
       p.style.color = "#B31B1B"; 
     }
   });
+
+
+  var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+  if (isSafari) {
+      document.body.classList.add('safari');
+  }

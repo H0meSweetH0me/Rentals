@@ -37,6 +37,8 @@ if(urun){
 }
 
 
+// next and previos buutons functionality
+
 document.querySelector('.next').addEventListener('click', nextSlide);
 document.querySelector('.prev').addEventListener('click', prevSlide);
 
@@ -63,7 +65,7 @@ export function prevSlide() {
 showSlide(currentIndex);
 
 
-
+//opening a fullscreen image  
 document.querySelector('.close').addEventListener('click', closeModal);
 document.querySelector('.modalNext').addEventListener('click', nextModalImage);
 document.querySelector('.modalPrev').addEventListener('click', prevModalImage);
@@ -72,7 +74,6 @@ const images = document.querySelectorAll('.slides img');
     img.addEventListener('click', () => openModal(img.src));
   });
 const imageSources = Array.from(images).map(img => img.src);
-
 let currentModalIndex = 0;
 
 function openModal(src) {
@@ -104,3 +105,10 @@ function openModal(src) {
   
   
   
+
+//safari css solution
+
+  var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+  if (isSafari) {
+      document.body.classList.add('safari');
+  }
