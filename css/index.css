@@ -226,13 +226,15 @@ a{
     width: 27vw;
     
   }
- .first > h3{
+ .first > .pNumber{
   display: inline-block;
   font-size: 1.646vw;
+  font-weight: bold;
  }
- .second > h3{
+ .second > .mail{
   display: inline-block;
   font-size: 1.646vw;
+  font-weight: bold;
  }
  .footer-contact > div{
   margin: 0.658vw;
@@ -367,23 +369,14 @@ a{
     .first{
       height: 35px;
     }
-    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
-      .first > h3{
-        font-size: 3.5vw;
-      }
-    }
-    _:-webkit-full-screen, :root {
-      .first > h3{
-        font-size: 3.5vw;
-      }
-    }
-    .first > h3{
+    
+    .first > .pNumber{
       font-size: 3.5vw;
     }
     .second{
       height: 35px;
     }
-    .second > h3{
+    .second > .mail{
       font-size: 3.5vw;
     }
     .footer-contact > p{
