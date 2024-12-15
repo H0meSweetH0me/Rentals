@@ -366,6 +366,16 @@ margin: 0.658vw;
   width: 80vw;
   height: 60vw;
 }
+.modal .modalPrev {
+  left: 0vw; 
+}
+
+.modal .modalNext {
+  right: 0vw; 
+}
+.modal-content{
+  margin-top: 12vh;
+}
   .description{
     width: 420px;
   }

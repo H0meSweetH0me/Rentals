@@ -74,11 +74,11 @@ const displayItem = (items) => {
              <section class="information">
              <div class="dateAddress">
                  <p class="date">${dateAded}</p>
-                 <p class="address">${address}</p>
+                 <p class="isAvailable">${isAvailable}</p>
             </div>
             <div class="priceAvailable">
                  <p class="price">${price} tl</p>
-                 <p class="isAvailable">${isAvailable}</p>
+                 <p class="address">${address}</p>
             </div>
              </section>
              
