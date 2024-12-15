@@ -84,7 +84,7 @@ export const information = [{
     address: "şili mecidiyeköy",
     maps: "",
     rooms: "2+1",
-    floor: "",
+    floor: "8",
     apartmentErea:"70m",
     type: "Apartment",
     gender: "Both",
@@ -150,7 +150,7 @@ export const information = [{
     gender: "Both",
     price: "25000 tl",
     paymentType: "Monthly",
-    deposit: "--",
-    commission: "--"
+    deposit: "25000 tl",
+    commission: "25000 tl"
 }
 ];
