@@ -36,6 +36,8 @@ if(urun){
     document.body.innerHTML = '<h1>IT`S NOT AVAILABLE FOR NOW</h1>';
 }
 
+document.getElementById('one').textContent = "+90 531 284 34 19";
+document.getElementById('two').textContent = "+90 535 961 77 58";
 
 // next and previos buutons functionality
 

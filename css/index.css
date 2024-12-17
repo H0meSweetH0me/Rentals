@@ -375,12 +375,8 @@ a{
     }
     
     .first > .pNumber{
-      font-size: 1.1rem;
+      font-size: 3.5vw;
       font-family: Arial, Helvetica, sans-serif;
-      text-rendering:optimizeLegibility;
-    }
-    .safari .pNumber{
-      font-size: 1.1rem;
     }
     .second{
       height: 35px;

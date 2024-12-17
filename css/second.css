@@ -400,12 +400,10 @@ margin: 0.658vw;
     height: 35px;
   }
   .first > .pNumber{
-    font-size: 1.1rem;
+    font-size: 3.5vw;
+    font-family: Arial, Helvetica, sans-serif;
   }
-  .safari .pNumber{
-    font-size: 1.1rem;
-    text-rendering:optimizeLegibility;
-  }
+  
   .second{
     height: 35px;
   }
