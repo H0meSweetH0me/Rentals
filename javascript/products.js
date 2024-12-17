@@ -16,8 +16,8 @@
 //TODO:change the image slider
 //TODO:make all scale changes to fit to mobile devices
 export const products = [{
-    id:'sisli-001',
-    image:'images/sisli-001/S-001-02.jpg',
+    id:'H-sisli-001',
+    image:'images/H-sisli-001/S-001-02.jpg',
     isAvailable: 'Available',
     dateAded: '2024/12/14',
     address: 'Şişli/Mecidiyeköy',
@@ -25,8 +25,8 @@ export const products = [{
     keywords: 'şişli 3+1 mecidiyeköy istanbul'
 },
 {
-    id: 'sisli-002',
-    image:'images/sisli-002/S-002-02.jpg',
+    id: 'H-sisli-002',
+    image:'images/H-sisli-002/S-002-02.jpg',
     isAvailable: 'Available',
     dateAded: '2024/12/14',
     address: 'Şişli/Mecidiyeköy',
@@ -34,8 +34,8 @@ export const products = [{
     keywords: 'şişli 2+1 mecidiyeköy istanbul'
 },
 {
-    id: 'kavacik-001',
-    image:'images/kavacik-001/K-001-02.jpg',
+    id: 'H-kavacik-001',
+    image:'images/H-kavacik-001/K-001-02.jpg',
     isAvailable: 'Available',
     dateAded: '2024/12/14',
     address: 'Soğuksu/Beykoz',
@@ -43,15 +43,23 @@ export const products = [{
     keywords: 'soğuksu 2+1 beykoz istanbul'
 },
 {
-    id: 'kavacik-002',
-    image:'images/kavacik-002/K-002-01.jpg',
+    id: 'H-kavacik-002',
+    image:'images/H-kavacik-002/K-002-01.jpg',
     isAvailable: 'Available',
     dateAded: '2024/12/14',
     address: 'Kavacık/Beykoz',
     price: '25000',
     keywords: 'kavacık 3+1 kavacik beykoz istanbul'
+},
+{
+    id: 'A-fatih-001',
+    image:'images/A-fatih-001/F-001-08.jpg',
+    isAvailable: 'Available',
+    dateAded: '2024/12/17',
+    address: 'Akdeniz/Fatih',
+    price: '38000',
+    keywords: 'fatih istanbul 3+1'
 }
-
 
 ];
 
