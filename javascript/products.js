@@ -52,13 +52,22 @@ export const products = [{
     keywords: 'kavacık 3+1 kavacik beykoz istanbul'
 },
 {
-    id: 'A-fatih-001',
-    image:'images/A-fatih-001/F-001-08.jpg',
+    id: 'S-fatih-001',
+    image:'images/S-fatih-001/F-001-08.jpg',
     isAvailable: 'Available',
     dateAded: '2024/12/17',
     address: 'Akdeniz/Fatih',
     price: '38000',
     keywords: 'fatih istanbul 3+1'
+},
+{
+    id: 'S-sisli-001',
+    image:'images/S-sisli-001/S-001-02.jpg',
+    isAvailable: 'Available',
+    dateAded: '2024/12/17',
+    address: 'Şişli/Mecidiyeköy',
+    price: '20000',
+    keywords: 'şişli 2+1 mecidiyeköy istanbul'
 }
 
 ];
