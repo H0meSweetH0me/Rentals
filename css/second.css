@@ -358,6 +358,7 @@ margin: 0.658vw;
 }
 .slider{
     width: 80vw;
+    margin-bottom: 5vh;
 }
 .slider button{
   font-size: 3.5vw;
