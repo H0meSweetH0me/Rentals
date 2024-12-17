@@ -404,6 +404,7 @@ margin: 0.658vw;
   }
   .safari .pNumber{
     font-size: 1.1rem;
+    text-rendering:optimizeLegibility;
   }
   .second{
     height: 35px;
