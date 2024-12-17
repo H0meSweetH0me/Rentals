@@ -21,7 +21,7 @@ export const products = [{
     isAvailable: 'Available',
     dateAded: '2024/12/14',
     address: 'Şişli/Mecidiyeköy',
-    price: '17000',
+    price: '17.000',
     keywords: 'şişli 3+1 mecidiyeköy istanbul'
 },
 {
@@ -30,7 +30,7 @@ export const products = [{
     isAvailable: 'Available',
     dateAded: '2024/12/14',
     address: 'Şişli/Mecidiyeköy',
-    price: '23000',
+    price: '23.000',
     keywords: 'şişli 2+1 mecidiyeköy istanbul'
 },
 {
@@ -39,7 +39,7 @@ export const products = [{
     isAvailable: 'Available',
     dateAded: '2024/12/14',
     address: 'Soğuksu/Beykoz',
-    price: '17500',
+    price: '17.500',
     keywords: 'soğuksu 2+1 beykoz istanbul'
 },
 {
@@ -48,7 +48,7 @@ export const products = [{
     isAvailable: 'Available',
     dateAded: '2024/12/14',
     address: 'Kavacık/Beykoz',
-    price: '25000',
+    price: '25.000',
     keywords: 'kavacık 3+1 kavacik beykoz istanbul'
 },
 {
@@ -57,7 +57,7 @@ export const products = [{
     isAvailable: 'Available',
     dateAded: '2024/12/17',
     address: 'Akdeniz/Fatih',
-    price: '38000',
+    price: '38.000',
     keywords: 'fatih istanbul 3+1'
 },
 {
@@ -66,7 +66,25 @@ export const products = [{
     isAvailable: 'Available',
     dateAded: '2024/12/17',
     address: 'Şişli/Mecidiyeköy',
-    price: '20000',
+    price: '20.000',
+    keywords: 'şişli 2+1 mecidiyeköy istanbul'
+},
+{
+    id: 'S-sisli-002',
+    image:'images/S-sisli-002/S-002-01.jpg',
+    isAvailable: 'Available',
+    dateAded: '2024/12/17',
+    address: 'Şişli/Mecidiyeköy',
+    price: '26.000',
+    keywords: 'şişli 2+1 mecidiyeköy istanbul'
+},
+{
+    id: 'S-sisli-003',
+    image:'images/S-sisli-003/S-003-01.jpg',
+    isAvailable: 'Available',
+    dateAded: '2024/12/17',
+    address: 'Şişli/Mecidiyeköy',
+    price: '23.000',
     keywords: 'şişli 2+1 mecidiyeköy istanbul'
 }
 
