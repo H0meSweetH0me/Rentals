@@ -371,10 +371,10 @@ a{
     }
     
     .first > .pNumber{
-      font-size: 3.5vw;
+      font-size: 1.1rem;
     }
     .safari .pNumber{
-      font-size: 3.5vw;
+      font-size: 1.1rem;
     }
     .second{
       height: 35px;
