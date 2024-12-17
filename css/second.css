@@ -188,7 +188,12 @@ a{
 }
 
 
-
+.tapFor{
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin-top: 0;
+}
 h1 , p{
     display: inline;
     
@@ -356,9 +361,11 @@ margin: 0.658vw;
     width: 100vw;
     padding: 0;
 }
+.tapFor{
+  margin-right: 3vw;
+}
 .slider{
     width: 80vw;
-    margin-bottom: 5vh;
 }
 .slider button{
   font-size: 3.5vw;
@@ -381,7 +388,7 @@ margin: 0.658vw;
   margin-top: 8vh;
 }
   .description{
-    width: 70vw;
+    width: 90vw;
   }
   .footer{
     grid-template-columns: repeat(2, 1fr);
