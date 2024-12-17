@@ -178,7 +178,10 @@ a{
 
 
 /*do the footer with grid!!!!!!!!*/
-
+  p {
+    unicode-bidi: plaintext;
+    direction: ltr; 
+  }
   .footer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
