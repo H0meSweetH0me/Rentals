@@ -230,7 +230,10 @@ a{
     width: 27vw;
     
   }
- .first > .pNumber{
+  .first > a {
+    display: inline-block;
+  }
+ .first > a > .pNumber{
   display: inline-block;
   font-size: 1.646vw;
   font-weight: bold;
@@ -374,10 +377,11 @@ a{
       height: 35px;
     }
     
-    .first > .pNumber{
+    .first > a > .pNumber{
       font-size: 3.5vw;
       font-family: Arial, Helvetica, sans-serif;
     }
+    
     .second{
       height: 35px;
     }

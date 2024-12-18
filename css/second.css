@@ -272,7 +272,10 @@ p{
 .first{
   height: 30px;
 }
-.first > .pNumber{
+.first > a {
+  display: inline-block;
+}
+.first > a > .pNumber{
 display: inline-block;
 font-size: 1.646vw;
 margin: 0;
@@ -410,7 +413,7 @@ margin: 0.658vw;
   .first{
     height: 35px;
   }
-  .first > .pNumber{
+  .first > a > .pNumber{
     font-size: 3.5vw;
     font-family: Arial, Helvetica, sans-serif;
   }
