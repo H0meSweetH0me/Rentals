@@ -34,6 +34,33 @@ export const products = [{
     keywords: 'şişli 1+1 gültepe harmantepe istanbul'
 },
 {
+    id:'H-sisli-004',
+    image:'images/H-sisli-004/S-004-01.jpg',
+    isAvailable: 'Available',
+    dateAded: '2024/12/21',
+    address: 'Şişli/Mecidiyeköy',
+    price: '17.500',
+    keywords: 'şişli 1+1 mecidiyeköy istanbul'
+},
+{
+    id:'H-sisli-005',
+    image:'images/H-sisli-005/01.jpg',
+    isAvailable: 'Available',
+    dateAded: '2024/12/21',
+    address: 'Şişli/Mecidiyeköy',
+    price: '16.000',
+    keywords: 'şişli 2+1 mecidiyeköy istanbul'
+},
+{
+    id:'H-sisli-006',
+    image:'images/H-sisli-006/01.jpg',
+    isAvailable: 'Available',
+    dateAded: '2024/12/21',
+    address: 'Gültepe/Harmantepe',
+    price: '18.000',
+    keywords: 'şişli 1+1 gültepe harmantepe istanbul'
+},
+{
     id:'H-sisli-001',
     image:'images/H-sisli-001/S-001-02.jpg',
     isAvailable: 'Available',
