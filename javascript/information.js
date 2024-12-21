@@ -34,6 +34,7 @@
 
 
 export const information = [
+    
 {
     id: 'H-sisli-001',    
     image1: "images/H-sisli-001/S-001-02.jpg",
