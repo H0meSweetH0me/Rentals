@@ -16,6 +16,24 @@
 //TODO:change the image slider
 //TODO:make all scale changes to fit to mobile devices
 export const products = [{
+    id: 'S-fatih-002',
+    image:'images/S-fatih-002/F-002-05.jpg',
+    isAvailable: 'Available',
+    dateAded: '2024/12/21',
+    address: 'Fatih',
+    price: '15000',
+    keywords: 'fatih 1+1 istanbul'
+},
+{
+    id:'H-sisli-003',
+    image:'images/H-sisli-003/S-003-01.jpg',
+    isAvailable: 'Available',
+    dateAded: '2024/12/21',
+    address: 'Gültepe/Harmantepe',
+    price: '17.000',
+    keywords: 'şişli 1+1 gültepe harmantepe istanbul'
+},
+{
     id:'H-sisli-001',
     image:'images/H-sisli-001/S-001-02.jpg',
     isAvailable: 'Available',

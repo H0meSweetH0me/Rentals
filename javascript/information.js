@@ -33,7 +33,8 @@
 
 
 
-export const information = [{
+export const information = [
+{
     id: 'H-sisli-001',    
     image1: "images/H-sisli-001/S-001-02.jpg",
     image2: "images/H-sisli-001/S-001-01.jpg",
@@ -272,5 +273,64 @@ export const information = [{
     paymentType: "Monthly",
     deposit: "44.000 tl",
     commission: "12% of annual rent"
+},
+{
+    id: 'S-fatih-002',    
+    image1: "images/S-fatih-002/F-002-05.jpg",
+    image2: "images/S-fatih-002/F-002-02.jpg",
+    image3: "images/S-fatih-002/F-002-03.jpg",
+    image4: "images/S-fatih-002/F-002-04.jpg",
+    image5: "images/S-fatih-002/F-002-01.jpg",
+    image6: "images/S-fatih-002/F-002-06.jpg",
+    image7: "images/S-fatih-002/F-002-07.jpg",
+    image8: "images/S-fatih-002/F-002-05.jpg",
+    image9: "images/S-fatih-002/F-002-02.jpg",
+    image10: "images/S-fatih-002/F-002-03.jpg",
+    image11: "images/S-fatih-002/F-002-04.jpg",
+    image12: "images/S-fatih-002/F-002-01.jpg",
+    image13: "images/S-fatih-002/F-002-06.jpg",
+    image14: "images/S-fatih-002/F-002-07.jpg",
+    image15: "images/S-fatih-002/F-002-05.jpg",
+    image16: "images/S-fatih-002/F-002-02.jpg",
+    address: "Balat, Ayan Cd. No:76, 34087 Fatih/İstanbul",
+    maps: "https://maps.app.goo.gl/6HNGgzydr6rSz5Vf7?g_st=com.google.maps.preview.copy",
+    rooms: "1+1",
+    floor: "5",
+    apartmentErea:"55m",
+    type: "Apartment",
+    gender: "--",
+    price: "15.000 tl",
+    paymentType: "Monthly",
+    deposit: "30.000 tl",
+    commission: "15.000 tl"
+},{
+    id: 'H-sisli-003',    
+    image1: "images/H-sisli-003/S-003-01.jpg",
+    image2: "images/H-sisli-003/S-003-02.jpg",
+    image3: "images/H-sisli-003/S-003-03.jpg",
+    image4: "images/H-sisli-003/S-003-04.jpg",
+    image5: "images/H-sisli-003/S-003-05.jpg",
+    image6: "images/H-sisli-003/S-003-06.jpg",
+    image7: "images/H-sisli-003/S-003-07.jpg",
+    image8: "images/H-sisli-003/S-003-08.jpg",
+    image9: "images/H-sisli-003/S-003-09.jpg",
+    image10: "images/H-sisli-003/S-003-10.jpg",
+    image11: "images/H-sisli-003/S-003-11.jpg",
+    image12: "images/H-sisli-003/S-003-12.jpg",
+    image13: "images/H-sisli-003/S-003-13.jpg",
+    image14: "images/H-sisli-003/S-003-01.jpg",
+    image15: "images/H-sisli-003/S-003-02.jpg",
+    image16: "images/H-sisli-003/S-003-03.jpg",
+    address: "Harmantepe, Talatpaşa Cd. No:248, 34410 Kağıthane/İstanbul",
+    maps: "https://www.google.com/maps/place/41%C2%B004'51.1%22N+28%C2%B059'34.5%22E/@41.0808716,28.990345,17z/data=!3m1!4b1!4m4!3m3!8m2!3d41.0808716!4d28.9929199?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D",
+    rooms: "1+1",
+    floor: "--",
+    apartmentErea:"--",
+    type: "Apartment",
+    gender: "Both",
+    price: "17.000 tl",
+    paymentType: "Monthly",
+    deposit: "20.000 tl",
+    commission: "20.000 tl"
 }
 ];
