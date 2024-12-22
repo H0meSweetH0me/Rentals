@@ -22,7 +22,7 @@ export const products = [
     isAvailable: 'Available',
     dateAded: '2024/12/21',
     address: 'Fatih',
-    price: '15000',
+    price: '15.000',
     keywords: 'fatih 1+1 istanbul'
 },
 {
