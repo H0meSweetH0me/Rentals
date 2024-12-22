@@ -15,7 +15,8 @@
 //TODO:add filters like all rooms and flats
 //TODO:change the image slider
 //TODO:make all scale changes to fit to mobile devices
-export const products = [{
+export const products = [
+{
     id: 'S-fatih-002',
     image:'images/S-fatih-002/F-002-05.jpg',
     isAvailable: 'Available',
@@ -29,7 +30,7 @@ export const products = [{
     image:'images/H-sisli-003/S-003-01.jpg',
     isAvailable: 'Available',
     dateAded: '2024/12/21',
-    address: 'Gültepe/Harmantepe',
+    address: 'Harmantepe/Şişli',
     price: '17.000',
     keywords: 'şişli 1+1 gültepe harmantepe istanbul'
 },
@@ -56,7 +57,7 @@ export const products = [{
     image:'images/H-sisli-006/01.jpg',
     isAvailable: 'Available',
     dateAded: '2024/12/21',
-    address: 'Gültepe/Harmantepe',
+    address: 'Harmantepe/Şişli',
     price: '18.000',
     keywords: 'şişli 1+1 gültepe harmantepe istanbul'
 },
