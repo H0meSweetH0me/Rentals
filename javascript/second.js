@@ -21,6 +21,7 @@ if(urun){
     document.getElementById('slide-14').src = urun.image14;
     document.getElementById('slide-15').src = urun.image15;
     document.getElementById('slide-16').src = urun.image16;
+    document.getElementById('slide-17').src = urun.video;
     document.getElementById('addressHref').href = urun.maps;
     document.getElementById('address').textContent = urun.address;
     document.getElementById('rooms').textContent = urun.rooms;
@@ -32,6 +33,7 @@ if(urun){
     document.getElementById('aptArea').textContent = urun.apartmentErea;
     document.getElementById('deposit').textContent = urun.deposit;
     document.getElementById('commission').textContent = urun.commission;
+    
 }else{
     document.body.innerHTML = '<h1>IT`S NOT AVAILABLE FOR NOW</h1>';
 }
