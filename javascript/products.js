@@ -15,6 +15,7 @@
 //TODO:add filters like all rooms and flats
 //TODO:change the image slider
 //TODO:make all scale changes to fit to mobile devices
+
 export const products = [
 {
     id: 'S-fatih-002',
