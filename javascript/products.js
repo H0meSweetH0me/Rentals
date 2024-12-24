@@ -15,26 +15,7 @@
 //TODO:add filters like all rooms and flats
 //TODO:change the image slider
 //TODO:make all scale changes to fit to mobile devices
-
 export const products = [
-{
-    id: 'S-fatih-002',
-    image:'images/S-fatih-002/F-002-05.jpg',
-    isAvailable: 'Available',
-    dateAded: '2024/12/21',
-    address: 'Fatih',
-    price: '15.000',
-    keywords: 'fatih 1+1 istanbul'
-},
-{
-    id:'H-sisli-003',
-    image:'images/H-sisli-003/S-003-01.jpg',
-    isAvailable: 'Available',
-    dateAded: '2024/12/21',
-    address: 'Harmantepe/Şişli',
-    price: '17.000',
-    keywords: 'şişli 1+1 gültepe harmantepe istanbul'
-},
 {
     id:'H-sisli-004',
     image:'images/H-sisli-004/S-004-01.jpg',
@@ -46,7 +27,7 @@ export const products = [
 },
 {
     id:'H-sisli-005',
-    image:'images/H-sisli-005/01.jpg',
+    image:'images/H-sisli-005/06.jpg',
     isAvailable: 'Available',
     dateAded: '2024/12/21',
     address: 'Şişli/Mecidiyeköy',
@@ -70,6 +51,24 @@ export const products = [
     address: 'Şişli/Mecidiyeköy',
     price: '17.000',
     keywords: 'şişli 3+1 mecidiyeköy istanbul'
+},
+{
+    id: 'S-fatih-002',
+    image:'images/S-fatih-002/F-002-05.jpg',
+    isAvailable: 'Available',
+    dateAded: '2024/12/21',
+    address: 'Fatih',
+    price: '15.000',
+    keywords: 'fatih 1+1 istanbul'
+},
+{
+    id:'H-sisli-003',
+    image:'images/H-sisli-003/S-003-01.jpg',
+    isAvailable: 'Available',
+    dateAded: '2024/12/21',
+    address: 'Harmantepe/Şişli',
+    price: '17.000',
+    keywords: 'şişli 1+1 gültepe harmantepe istanbul'
 },
 {
     id: 'H-sisli-002',
